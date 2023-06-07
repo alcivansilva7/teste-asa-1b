@@ -1,0 +1,11 @@
+@   IN  SOA alcivan.ce.br. contato.ce.br. (
+            2023010101 ; Serial
+            3H ; Refresh
+            1H ; Retry
+            1W ; Expire
+            1D ; Minimum TTL
+)
+@   IN  NS  alcivan.ce.br.
+
+160  IN  PTR alcivan.ce.br.
+160  IN  PTR www.ce.br.
