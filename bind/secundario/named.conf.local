@@ -1,6 +1,6 @@
 zone "ce.br"{
     type slave;
-    file "/etc/bind/db.ce.br";
+    file "/var/lib/bind/db.ce.br";
     masters{
        10.25.1.160;
     };
@@ -8,7 +8,7 @@ zone "ce.br"{
 
 zone "1.25.10.in-addr.arpa"{
     type slave;
-    file "/etc/bind/rv.db.ce.br";
+    file "/var/lib/bind/rv.db.ce.br";
     masters{
         10.25.1.160;
     };

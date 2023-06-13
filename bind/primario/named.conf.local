@@ -2,7 +2,7 @@ zone "ce.br"{
     type master;
     file "/etc/bind/db.ce.br";
     allow-transfer{
-        0.0.0.0;
+       any;
     };
 };
 
@@ -10,6 +10,6 @@ zone "1.25.10.in-addr.arpa"{
     type master;
     file "/etc/bind/rv.db.ce.br";
     allow-transfer{
-        0.0.0.0;
+        any;
     };
 };
