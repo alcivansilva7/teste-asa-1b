@@ -5,7 +5,9 @@
             1W ; Expire
             1D ; Minimum TTL
 )
+@   IN  MX  10 mail.ce.br.
 @   IN  NS  alcivan.ce.br.
 
 alcivan IN  A   10.25.1.160
+mail    IN  A   10.25.1.160
 www     IN  A   10.25.1.160

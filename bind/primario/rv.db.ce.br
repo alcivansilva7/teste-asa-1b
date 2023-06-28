@@ -5,7 +5,9 @@
             1W ; Expire
             1D ; Minimum TTL
 )
+@   IN  MX  10 mail.ce.br.
 @   IN  NS  alcivan.ce.br.
 
 160  IN  PTR alcivan.ce.br.
+160  IN  PTR mail.ce.br.
 160  IN  PTR www.ce.br.
