@@ -58,7 +58,21 @@ services:
       - "5353:53/tcp"
       - "5353:53/udp"
     networks:
-      - teste-asa-1b    
+      - teste-asa-1b
+  email:
+    build:
+      context: ./postfix
+      dockerfile: Dockerfile
+    image: email
+    container_name: email
+    ports:
+      - "25:25/tcp"
+      - "587:587/tcp"
+      - "110:110/tcp"
+      - "143:143/tcp"
+    networks:
+      - teste-asa-1b
+           
 #Docker Networks
 networks:
   teste-asa-1b:
